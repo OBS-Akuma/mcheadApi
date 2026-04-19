@@ -1,9 +1,19 @@
 {
-  "name": "mchead-api",
+  "name": "minecraft-face-viewer",
   "version": "1.0.0",
-  "description": "API to generate Minecraft head from skin texture URL",
-  "author": "Your Name",
+  "description": "Extract and display just the face from any Minecraft skin texture URL. Supports both Normal (Steve) and Slim (Alex) models.",
+  "author": "meow",
   "license": "MIT",
+  "keywords": [
+    "minecraft",
+    "skin",
+    "face",
+    "texture",
+    "nextjs",
+    "react",
+    "minecraft-skin",
+    "skin-viewer"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,12 +21,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.0.0",
+    "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.0.0",
-    "eslint-config-next": "^14.0.0"
-  }
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
 }
