@@ -1,40 +1,15 @@
 {
   "name": "minecraft-face-viewer",
   "version": "1.0.0",
-  "description": "Extract and display just the face from any Minecraft skin texture URL. Supports both Normal (Steve) and Slim (Alex) models.",
-  "author": "meow",
-  "license": "MIT",
-  "keywords": [
-    "minecraft",
-    "skin",
-    "face",
-    "texture",
-    "nextjs",
-    "react",
-    "minecraft-skin",
-    "skin-viewer"
-  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
+    "canvas": "^2.11.2",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "eslint": "^8.56.0",
-    "eslint-config-next": "^14.0.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": ""
-  },
-  "bugs": {
-    "url": ""
-  },
-  "homepage": ""
+  }
 }
