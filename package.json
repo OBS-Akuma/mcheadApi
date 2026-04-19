@@ -1,21 +1,8 @@
 {
-  "name": "minecraft-face-viewer",
+  "name": "minecraft-face-api",
   "version": "1.0.0",
-  "description": "Extract and display just the face from any Minecraft skin texture URL. Supports both Normal (Steve) and Slim (Alex) models with JSON API support.",
-  "author": "Your Name",
-  "license": "MIT",
-  "keywords": [
-    "minecraft",
-    "skin",
-    "face",
-    "texture",
-    "nextjs",
-    "react",
-    "minecraft-skin",
-    "skin-viewer",
-    "json-api",
-    "base64"
-  ],
+  "description": "API to extract faces from Minecraft skin textures",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -23,20 +10,17 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "^14.0.4",
+    "next": "^14.0.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "canvas": "^2.11.2"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
-    "eslint-config-next": "^14.0.4"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/OBS-Akuma/mcheadApi"
-  },
-  "bugs": {
-    "url": "https://github.com/OBS-Akuma/mcheadApi/issues"
-  },
-  "homepage": "https://github.com/OBS-Akuma/mcheadApi#readme"
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
+  }
 }
