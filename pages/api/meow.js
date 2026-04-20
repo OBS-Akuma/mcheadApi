@@ -1,5 +1,5 @@
 // app/api/extract-face/route.js (App Router)
-// or pages/api/extract-face.js (Pages Router)
+// or pages/api/extract-face.js (Pages Routr)
 
 import { NextResponse } from 'next/server';
 
